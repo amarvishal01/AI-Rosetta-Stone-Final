@@ -1,0 +1,13 @@
+# AI Rosetta Stone - Symbolic Knowledge Base Builder Dependencies
+# Core NLP libraries for entity and relationship extraction
+
+spacy>=3.4.0
+# For downloading spaCy models: python -m spacy download en_core_web_sm
+
+# Optional: Additional NLP libraries for enhanced processing
+nltk>=3.8
+regex>=2022.10.31
+
+# Development and testing dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
